@@ -1,13 +1,13 @@
 package lab_2;
 
 public class Author {
-    String name;
-    //String surname;
-
-    Author(String n)
-    {
-        name=n;
+    private   String name;
+    Author(String name){
+        this.name=name;
     }
+    public void print()
+    {
+        System.out.print(this.name);
 
-
+    }
 }

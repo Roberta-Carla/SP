@@ -1,4 +1,8 @@
 package lab_2;
 
-public class Element {
+public interface Element{
+
+    default void print(){
+
+    }
 }
