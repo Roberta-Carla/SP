@@ -49,13 +49,4 @@ public class SubChapter  {
             i.print();
         }
     }
-
-
-
-
-
-
-
-
-
 }
