@@ -14,5 +14,22 @@ public class ImageProxy implements Element {
         }
         realImage.print();
     }
+
+    public void ImageProxy(String url)
+    {
+        if(url.toLowerCase().endsWith(("bmp")))
+        {
+            return ;
+        }
+        if (url.toLowerCase().endsWith("jpg"))
+        {
+            return;
+        }
+        if (url.toLowerCase().endsWith("png"))
+        {
+            return;
+        }
+
+    }
 }
 
